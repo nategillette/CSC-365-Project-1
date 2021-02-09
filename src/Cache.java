@@ -16,7 +16,7 @@ public class Cache {
         Document doc;
         BufferedWriter bw;
         String fileName;
-        File urlFile = new File("/media/nate/FILES/CSC_365_Project_1/URLS.txt");
+        File urlFile = new File("/home/nate/Desktop/CSC-375-Project-1/src/URLS.txt");
         Scanner sc = new Scanner(urlFile);
         String[] urls = sc.next().split(",");
 
